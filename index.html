@@ -5,12 +5,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://kit.fontawesome.com/932f3186f5.js" crossorigin="anonymous"></script>
     <title>Document</title>
+
 </head>
 
 <body>
+
     <header>
         <nav class="nav">
 
@@ -34,19 +36,46 @@
                             <a href="#" class="nav-link">Blog</a>
                         </li>
                         <li class="nav-item">
-                            <a href="#" class="nav-link">Kontaktlar</a>
+                            <a href="#" class="nav-link">Kontaktlar</i></a>
                         </li>
                     </ul>
-                    <a href="tel:+998909213711" class="tel-link">+998 90 921 37 11</a>
+                    <a href="tel:+998909213711" class="tel-link btn">+998 90 921 37 11</a>
 
                 </div>
-                <button class="menu-button"><i class="fas fa-bars"></i></button>
+                <button class="menu-button"><img src="./img/menu.png" alt="menu" width="25" ></button>
+
+
+
             </div>
 
         </nav>
     </header>
 
     <main>
+
+        <section class="form-section">
+            <div class="container">
+                <h2 class="text-center light mini-width">Buyurtma berish</h2>
+                <p class="text-center light mini-width">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis, facere placeat! Eaque, recusandae rem! Quis quo dicta deleniti rem ipsum cumque explicabo suscipit minus nobis.</p>
+                <form action="https://echo.htmlacademy.ru" target="_blank" class="form" method="post" id="form">
+                    <label><input type="text" pattern="[A-Z,a-z]{3,16}" placeholder="Ismingiz" id="uname" name="name" required><span class="validity"></span></label>
+                    <label><input type="tel" pattern="[0-9,+]{7,13}" name="tel" placeholder="Telefon raqamingiz"  required><span class="validity"></span></label>
+                    <label class="select-label">
+                        <select name="choice" required>
+                        <option value="choice">Xizmat turi</option>
+                        <option value="create-web-site">Web sayt tuzish</option>
+                        <option value="telegram-bot">Telegram bot</option>
+                        <option value="SMM">SMM</option>
+                        <option value="graphic-design">Grafik dizayn</option>
+                        <option value="CRM" >CRM tizimlari</option>
+                        </select>
+                    </label>
+                    <!-- <i class="fas fa-sort-down"></i> -->
+                    <button type="submit" class="btn submit" required>Buyurtma berish</button>
+
+                </form>
+            </div>
+        </section>
 
     </main>
 
