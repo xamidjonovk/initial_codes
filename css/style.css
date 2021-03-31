@@ -462,7 +462,7 @@ footer .container>div {
     }
 }
 
-@media(min-width:51em) {
+@media(min-width:54em) {
     .mini-width {
         width: 65%;
     }
