@@ -370,6 +370,10 @@ footer .container>div {
 
 /* SERVICE-SECTION-ENDED */
 
+.menu-button:hover {
+    transform: scale(0.9)
+}
+
 @media(min-width:520px) {
     .site-box {
         margin-right: 20px;
@@ -475,15 +479,8 @@ footer .container>div {
     .links a {
         font-size: 15px;
     }
-}
-
-.menu-button:hover {
-    transform: scale(0.9)
-}
-
-
-/* @media(max-width:492px) {
-    .links a {
-        font-size: 10px;
+    .new {
+        display: block;
+        width: 90%;
     }
-} */
+}
