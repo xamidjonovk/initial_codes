@@ -497,7 +497,10 @@ footer .container>div {
     }
 }
 
-@media(max-width:542px) {
+@media(max-width:600px) {
+    .responsive-btn {
+        width: 80%;
+    }
     .links {
         width: 100%;
         display: flex;
