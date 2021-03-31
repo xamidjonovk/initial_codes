@@ -266,6 +266,11 @@ footer {
 footer a {
     font-family: 'Open Sans', sans-serif;
     color: var(--clr-light);
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
 }
 
 footer a:hover {
@@ -326,6 +331,10 @@ footer .container {
 
 .step-item .texts {
     padding: 10px 20px;
+}
+
+.btn:hover {
+    box-shadow: 0 0 5px 0px rgb(20, 208, 241);
 }
 
 
