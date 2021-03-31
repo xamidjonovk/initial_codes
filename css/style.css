@@ -265,6 +265,12 @@ select {
     color: var(--clr-primary);
 }
 
+.btn-center {
+    display: block;
+    width: 20%;
+    margin: 50px auto;
+}
+
 .next-page:hover {
     text-decoration: underline;
 }
