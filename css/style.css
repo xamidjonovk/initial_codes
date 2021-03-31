@@ -261,6 +261,10 @@ select {
     margin: 5px 10px;
 }
 
+.next-page {
+    color: var(--clr-primary);
+}
+
 .next-page:hover {
     text-decoration: underline;
 }
