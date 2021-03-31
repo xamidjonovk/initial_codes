@@ -414,10 +414,12 @@ footer .container>div {
     }
     .service-list {
         flex-direction: row;
-        justify-content: space-around;
+        justify-content: center;
     }
     .service-item {
-        width: 30%;
+        width: 27%;
+        margin-left: 30px;
+        margin-right: 30px;
     }
 }
 
