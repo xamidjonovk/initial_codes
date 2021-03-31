@@ -416,8 +416,8 @@ footer .container {
     }
 }
 
-@media(.mini-width:960px) {
+@media(min-width:960px) {
     iframe {
-        height: 600px;
+        height: 300px;
     }
 }
