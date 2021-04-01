@@ -104,6 +104,10 @@ header {
     z-index: 3;
 }
 
+.nullam {
+    text-align: center;
+}
+
 .btn:focus {
     outline: none;
 }
@@ -448,6 +452,9 @@ footer .container>div {
 }
 
 @media(min-width:665px) {
+    .nullam {
+        text-align: left;
+    }
     .btn-center {
         width: 25%;
     }
@@ -505,6 +512,16 @@ footer .container>div {
     }
 }
 
+@media(max-width:660px) {
+    .new,
+    {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+    }
+}
+
 @media(max-width:600px) {
     .responsive-btn {
         width: 80%;
@@ -519,8 +536,11 @@ footer .container>div {
     .links a {
         font-size: 15px;
     }
-    .new {
+    .new,
+    .submit {
         display: block;
+        margin-left: auto;
+        margin-right: auto;
         width: 90%;
     }
 }
