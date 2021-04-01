@@ -434,8 +434,6 @@ footer .container>div {
         width: 45%;
     }
     footer .container {
-        width: 80%;
-        margin-left: 50px;
         flex-direction: row;
         text-align: left;
         justify-content: space-around;
