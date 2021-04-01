@@ -95,6 +95,14 @@ p {
     border: none;
 }
 
+header {
+    background: white;
+    position: sticky;
+    width: 100%;
+    top: 0px;
+    padding-bottom: 0px !important;
+    z-index: 3;
+}
 .btn:focus {
     outline: none;
 }
