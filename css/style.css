@@ -179,7 +179,8 @@ input {
     padding: 1.5rem;
 }
 
-input:focus {
+input,
+select:focus {
     outline: none;
 }
 
