@@ -518,7 +518,7 @@ footer .container>div {
     display: flex;
 } */
 
-@media(min-width:764px) {
+@media(min-width:933px) {
     .mini-width {
         width: 65%;
     }
