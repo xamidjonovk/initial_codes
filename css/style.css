@@ -106,6 +106,7 @@ header {
 
 .nullam {
     text-align: center;
+    font-weight: 400;
 }
 
 .btn:focus {
@@ -212,9 +213,16 @@ select {
 }
 
 .submit {
-    width: 60%;
+    width: 70%;
     padding: 10px;
     margin-left: 0;
+    font-size: 16px;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.btn {
+    line-height: 24;
 }
 
 .submit:hover {
@@ -311,8 +319,22 @@ footer a {
     text-decoration: none;
 }
 
+nav a {
+    border-radius: 4px;
+    padding: 5px;
+    transition: color 0.5s, background-color 0.5s;
+}
+
+.btn {
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 700;
+    padding: 8px 16px;
+}
+
 nav a:hover {
-    text-decoration: underline;
+    background-color: var(--clr-primary);
+    color: var(--clr-light);
 }
 
 footer a:hover {
@@ -480,7 +502,23 @@ footer .container>div {
     }
 }
 
-@media(min-width:54em) {
+@media(min-width:640px) {
+    .nav {
+        padding: 0;
+        padding-bottom: 10px;
+    }
+}
+
+
+/* .right-side-nav {
+    display: none;
+}
+
+.menu-button {
+    display: flex;
+} */
+
+@media(min-width:764px) {
     .mini-width {
         width: 65%;
     }
@@ -489,13 +527,6 @@ footer .container>div {
     }
     .right-side-nav {
         display: flex;
-    }
-}
-
-@media(min-width:640px) {
-    .nav {
-        padding: 0;
-        padding-bottom: 10px;
     }
 }
 
