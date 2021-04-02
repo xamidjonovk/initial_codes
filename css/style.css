@@ -431,6 +431,9 @@ footer .container>div {
     .service-item {
         width: 45%;
     }
+    .texts {
+        text-align: left !important;
+    }
 }
 
 @media(min-width:660px) {
